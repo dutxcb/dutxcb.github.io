@@ -1,14 +1,3 @@
-// 设置图片切换
-let myImage = document.querySelector('img');
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/1.jpg') {
-    myImage.setAttribute ('src','images/2.jpg');
-  } else {
-    myImage.setAttribute ('src','images/1.jpg');
-  }
-};
-
 // 设置个性化欢迎信息
 // 获取新按钮和标题的引用
 let myButton = document.querySelector('button');
